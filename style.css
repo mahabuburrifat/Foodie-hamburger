@@ -10,10 +10,14 @@ body {
 }
 header {
     background-color: #fff;
+    padding: 16px 28px;
+}
+.header-content-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px 28px;
+    margin: 0 auto;
+    max-width: 1290px;
 }
 .logo {
     width: 60px;
@@ -46,7 +50,7 @@ main {
     justify-content: center;
 }
 .image-container > img {
-    max-width: 240px;
+    max-width: 1290px;
 }
 .hero-section > p {
     color: #492118;
@@ -55,3 +59,49 @@ main {
     text-align: center;
     margin-top: 20px;
 }
+
+/* all image container section */
+.all-image {
+    margin-top: 140px;
+}
+.all-image > h2 {
+    color: #492118;
+    font-size: 48px;
+    font-weight: 700;
+    font-style: bold;
+    text-align: center;
+    margin-bottom: 28px;
+}
+.all-image > img {
+    width: 1040px;
+    display: block;
+    margin: auto;
+
+}
+
+
+/* ----- footer text */
+footer {
+    margin-top: 64px;
+    padding: 0 24px;
+}
+.go-to-top {
+    text-decoration: underline;
+    text-align: right;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.go-to-top > a {
+    color: #492118;
+    font-size: 36px;
+    text-decoration-line: none;
+}
+.footer-text {
+    color: #858585;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 56px;
+    padding-bottom: 24px;
+}
+
+
